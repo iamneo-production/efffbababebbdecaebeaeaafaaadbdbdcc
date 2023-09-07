@@ -3,9 +3,9 @@ package exception;
 import java.util.Scanner;
 
 public class Main {
-    int age;
-    Scanner s = new Scanner(System.in);
-    age = s.nextInt();
+    public static void main(String[] args) {
+    int age=29;
+
     try {
      if(age<18 | age>150)
     {
@@ -18,5 +18,6 @@ public class Main {
     } catch (Exception e) {
         // TODO: handle exception
         System.out.println(e);
+    }
     }
 }
