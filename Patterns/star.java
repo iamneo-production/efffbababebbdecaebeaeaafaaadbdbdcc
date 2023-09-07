@@ -1,3 +1,4 @@
+import java.lang.Thread;
 public class star extends Thread
 {
     public void run()
@@ -5,6 +6,7 @@ public class star extends Thread
         System.out.println("threading");
     }
     public static void main(String[] args) {
-        System.out.println("hello world");        
+        Thread t1 = new Thread();
+        t1.start();        
     }
 }
