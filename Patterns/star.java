@@ -6,8 +6,10 @@ public class star extends Thread
         System.out.println("threading");
     }
     public static void main(String[] args) {
-        Thread t1 = new Thread();
+        star t1 = new star();
+        star t2 = new star();
         t1.start();        
+        t2.start();
         System.out.println("done");
     }
 }
