@@ -2,7 +2,7 @@ public class invalidexcept extends Exception
 {
     public invalidexcept(String stri)
     {
-        super(stri);
+        super(stri);x
     }
 }
 public class Exception {
