@@ -1,6 +1,8 @@
 public class class1
 {
-    public static void main(String[] args) {
-        System.out.println("hello to all");
+    public void msg()
+    {
+        System.out.println("first class method");
+        System.out.println("\"text in the double codes"\");
     }
 }
