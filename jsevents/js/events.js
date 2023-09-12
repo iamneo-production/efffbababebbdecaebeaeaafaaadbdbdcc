@@ -1,6 +1,6 @@
 
 document.getElementById("load").addEventListener("onload",loading())
-document.getElementById("load").addEventListener("onmouseover",hover())
+document.getElementById("image").addEventListener("onmouseover",hover())
 document.getElementById("work").addEventListener("onclick",show())
 let a=0;
 function loading()
