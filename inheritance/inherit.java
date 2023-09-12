@@ -10,7 +10,7 @@ class Parent
     }
 }
 class child extends Parent
-{
+{ 
     public void c1()
     {
         System.out.println("child method 1");
@@ -20,7 +20,6 @@ class child extends Parent
         System.out.println("child method2");
     }
 }
-
 class Inherit
 {
    public static void main(String[] args) {
