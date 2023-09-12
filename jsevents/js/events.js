@@ -8,5 +8,5 @@ function out()
     }
 function show()
     {
-        window.write()
+        window.write("hello studio");
     }
