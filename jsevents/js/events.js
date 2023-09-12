@@ -19,4 +19,3 @@ function show()
 {
     document.write("clicked successfully");
 }
-</script>
