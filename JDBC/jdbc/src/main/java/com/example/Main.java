@@ -10,7 +10,7 @@ public class Main {
 
         String username = "root";
 
-        String password = "examly";
+        String password = "examly";mvn exec:java -Dexec.mainClass="com.jdbc.App" -Dexec.cleanupDaemonThreads=false
 
  
 
