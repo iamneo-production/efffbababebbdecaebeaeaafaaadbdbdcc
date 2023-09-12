@@ -2,10 +2,17 @@ package patterns;
 
 public class pattern {
     public static void main(String[] args) {
-        int a[]={1,2,3,4,5,6,7,8,9}; 
-        for(int i:a)
-        {
-            System.out.println(i);
+       for(int i=0;i<10;i++)
+       {
+        for (int j = 10; j >= i; j--) {
+            System.out.print(" ");
         }
+
+        // loop to print the number of stars in each row
+        for (int j = 1; j <= i; j++) {
+            System.out.print("* ");
+        }
+        System.out.println();
+       }
     }
 }
