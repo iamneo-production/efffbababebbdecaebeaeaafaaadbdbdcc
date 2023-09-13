@@ -17,5 +17,6 @@ function out()
 }
 function show()
 {
+    window.alert("");
     document.write("clicked successfully");
 }
