@@ -1,5 +1,5 @@
 package exception;
-
+import exception.NewException;
 import java.util.Scanner;
 
 public class Main {
@@ -7,7 +7,7 @@ public class Main {
     int age=29;
 
     try {
-     if(age<18 | age>150)
+     if(age<18)
     {
         throw new NewException();
     }
